@@ -58,7 +58,7 @@ function Frontpage() {
             </div>
           </div>
           <div className="profile-picture">
-            <a href="#about_me" className="profile-picture-background"></a>
+            <a href="/portfolio/#about_me" className="profile-picture-background"></a>
           </div>
         </div>
         <SvgBackground />

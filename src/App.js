@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Frontpage from './pages/Frontpage';
 import About from './pages/About';
 // import Contact from './pages/Contact';
@@ -14,22 +14,21 @@ const App = () => {
     <>
       <Navbar />
       <Routes>
+        <Route path="/" element={<Navigate to="/portfolio" />} />
         <Route
-          exact
-          path="/"
+          path="/portfolio"
           element={
             <>
               <Frontpage />
               <About />
               <ProjectExp />
-              {/* <Contact /> */}
               <Footer />
             </>
           }
         />
         <Route
           exact
-          path="/education_and_certifications"
+          path="portfolio/education_and_certifications"
           element={
             <>
               <EducationCert /> <Footer />
@@ -38,7 +37,7 @@ const App = () => {
         />
         <Route
           exact
-          path="/tech"
+          path="portfolio/tech"
           element={
             <>
               <Skills />
@@ -46,8 +45,6 @@ const App = () => {
             </>
           }
         />
-        {/* <Route exact path="/admin/login" element={<Login />} />
-        <Route exact path="/user-backend" element={<AdminUser />} /> */}
       </Routes>
     </>
   );
