@@ -8,7 +8,12 @@ const social_media_data = [
   {
     index: 1,
     icon_class: "fas fa fa-github",
-    where_to_go_link: "https://github.com/simant-singh",
+    where_to_go_link: "https://github.com/SimantBSingh",
+  },
+  {
+    index: 2,
+    icon_class: "fas fa-graduation-cap",
+    where_to_go_link: "https://scholar.google.com/citations?hl=en&user=6M1VHkQAAAAJ",
   },
   // {
   //   index: 3,

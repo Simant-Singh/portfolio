@@ -1,8 +1,8 @@
-.about_me {
+#about_me {
   width: 100%;
   background: #fffafa;
 }
-.about_me,
+#about_me
 .container_01,
 .my_img,
 .my_info,

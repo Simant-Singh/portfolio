@@ -8,8 +8,6 @@ import ProjectExp from './pages/Project_exp';
 import Skills from './pages/Skills';
 import Navbar from './pages/Navbar';
 import Footer from './pages/Footer';
-import Login from './pages/components/Login';
-import AdminUser from './pages/components/AdminUser';
 
 const App = () => {
   return (
@@ -18,7 +16,7 @@ const App = () => {
       <Routes>
         <Route
           exact
-          path="/portfolio"
+          path="/"
           element={
             <>
               <Frontpage />
@@ -48,8 +46,8 @@ const App = () => {
             </>
           }
         />
-        <Route exact path="/admin/login" element={<Login />} />
-        <Route exact path="/user-backend" element={<AdminUser />} />
+        {/* <Route exact path="/admin/login" element={<Login />} />
+        <Route exact path="/user-backend" element={<AdminUser />} /> */}
       </Routes>
     </>
   );

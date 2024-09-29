@@ -7,16 +7,28 @@ function ProjHome() {
     <>
       <div className="proj_containar_section">
         <div className="proj_left">
-          <h1>Projects & Experiences</h1>
+          <h1>Experiences & Projects</h1>
           <div>
-            <h3>Research Assistant</h3>
-            <h4>University of New Orleans</h4>
+            <h3>Software Engineer Intern</h3>
+            <h4>Bentley Systems</h4>
             <br/>
             <ul>
-              <li>Implemented advanced algorithms, such as sensor fusion, Kalman Filter, and Odometry, resulting in a 15% improvement in the accuracy of a Parrot Bebop2 Drone Controller.</li>
-              <li>Evaluated a State Estimator Program through rigorous unit-testing of LQR controllers and Particle Filters in ROS, C++, and Python, enhancing system reliability.</li>
-              <li>Engineered a safety-integrated Dynamic Window Approach, propelling a Roomba robot to achieve an 18% boost in speed and security within complex environments.</li>
-              <li>Crafted a dynamic GUI automating the initialization process of all robot components, reducing set-up time by 26%.</li>
+              <li>Collaborated with a cross-functional team throughout the Product LifeCycle to design the AssetWise Inspections mobile app, facilitating efficient data capture, analysis, and management of assets for over 5000 users.</li>
+              <li>Designed custom mobile components that improved UI consistency and reduced development time by 27% across Android and iOS projects.</li>
+              <li>Developed backend API endpoints for frontend data fetching using agile methodologies to ensure efficient delivery.</li>
+              <li>Tools: TypeScript, React-Native, C#, ASP.NET, Microsoft SQL Server, Realm Database, Swagger</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Research Assistant</h3>
+            <h4>Autonomous Intelligent Robotics Lab, UNO</h4>
+            <br/>
+            <ul>
+              <li>Engineered a real-time detection algorithm for localizing drones using various Machine Learning models and following the Software Development LifeCycle (SDLC) to surpass traditional techniques in detecting fiducial markers.</li>
+              <li>Trained Deep Neural Networks and conducted unit-testing for improving the Roomba robot’s precision in Computer Vision techniques for obstacle avoidance by 32%.</li>
+              <li>Created a lab management website to streamline task tracking and organize deadlines and documents for conferences and research papers, improving workflow efficiency by 43%.</li>
+              <li>Crafted a dynamic GUI for automating the initialization process of robot components, reducing the set-up time by 21%.</li>
+              <li>Tools: C++, Python, JavaScript, React, Flask, MySQL, PyTorch, Keras, Qt, QML, ROS</li>
             </ul>
           </div>
         </div>

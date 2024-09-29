@@ -4,7 +4,7 @@ import SocialMediaLinks from './SocialMediaLinks';
 import my_navbar_data from '../assets/NavData';
 import { HashLink } from 'react-router-hash-link';
 import personal_info_data from '../assets/AboutIn';
-import Githubcomp from './Githubcomp';
+// import Githubcomp from './Githubcomp';
 
 const BottomNav = () => {
   // const [myValue, setMyValue] = useState(0);
@@ -32,11 +32,11 @@ const BottomNav = () => {
               </HashLink>
             </div>
             <div className="bot_middle_info">
-              <p className="basic_info">
+              {/* <p className="basic_info">
                 Need any help with your projects? contact me at the places
                 mentioned below. I will try to get back to you as fast as I can.
-              </p>
-              <p className="f_info">Follow me for more such Projects.</p>
+              </p> */}
+              {/* <p className="f_info">Follow me for more such Projects.</p> */}
             </div>
             {/* <div>
               <Githubcomp href="https://github.com/ganraj21" />

@@ -9,6 +9,8 @@ import calci_img from '../../Image/proj_imgs/calci_img.jpg';
 import todo_img from '../../Image/proj_imgs/todo_img.jpg';
 import metacrypto from '../../Image/proj_imgs/metacrypto_img.png';
 import landing_img from '../../Image/proj_imgs/landing_img.png';
+import foodscan from '../../Image/proj_imgs/foodscan.png';
+
 
 const proj_data = [
   {
@@ -31,7 +33,7 @@ const proj_data = [
   // },
   {
     id: 2,
-    project_name: 'Playlist Management and Song Recommender Bot',
+    project_name: 'Music Playlist & Recommender Bot',
     // proj_creation_date: 'Oct 2022',
     project_image: resume_img,
     proj_code_like: 'https://github.com/Simant-Singh/discord-song-bot',
@@ -39,7 +41,7 @@ const proj_data = [
   },
   {
     id: 3,
-    project_name: 'Car Dealer Management System',
+    project_name: 'Car Dealership',
     // proj_creation_date: 'April 2023',
     project_image: landing_img,
     proj_code_like: 'https://github.com/Simant-Singh/Car-Dealer-Management',
@@ -47,6 +49,12 @@ const proj_data = [
   },
   {
     id: 4,
+    project_name: 'FoodScan+',
+    project_image: foodscan,
+    proj_code_like: 'https://github.com/Simant-Singh/'
+  },
+  {
+    id: 5,
     project_name: 'Text Utils App',
     // proj_creation_date: 'Nov 2022',
     project_image: login_img,
