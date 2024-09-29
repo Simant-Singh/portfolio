@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c90951dc.css",
-    "main.js": "/portfolio/static/js/main.47736d04.js",
+    "main.css": "/portfolio/static/css/main.4b171c39.css",
+    "main.js": "/portfolio/static/js/main.4b18434b.js",
     "static/media/landing_img.png": "/portfolio/static/media/landing_img.0d3f65137c05f4df5a66.png",
     "static/media/proj_img.png": "/portfolio/static/media/proj_img.4a822ec78b9fbf22342c.png",
     "static/media/metacrypto_img.png": "/portfolio/static/media/metacrypto_img.b556486c78c64dc3a7fc.png",
@@ -19,6 +19,7 @@
     "static/media/about_me_img.png": "/portfolio/static/media/about_me_img.5a41b5e8a24955786f31.png",
     "static/media/vue.png": "/portfolio/static/media/vue.52b61ccb42e6fc9fd59a.png",
     "static/media/todo_img.jpg": "/portfolio/static/media/todo_img.bb51c676b43311e86d37.jpg",
+    "static/media/foodscan.png": "/portfolio/static/media/foodscan.9cb2562181cda63a8bfa.png",
     "static/media/college_logo.png": "/portfolio/static/media/college_logo.03ce2448034e61960e72.png",
     "static/media/weather_img.jpg": "/portfolio/static/media/weather_img.aa4b17b6fa1d157ed5cf.jpg",
     "static/media/calci_img.jpg": "/portfolio/static/media/calci_img.f23917665235c5c5d1ae.jpg",
@@ -32,11 +33,11 @@
     "static/media/resct_logo.png": "/portfolio/static/media/resct_logo.0c66c79ce81db9c5fbb0.png",
     "index.html": "/portfolio/index.html",
     "static/media/vercel.svg": "/portfolio/static/media/vercel.f69ae68ed6f947fe0dc8d018023340e6.svg",
-    "main.c90951dc.css.map": "/portfolio/static/css/main.c90951dc.css.map",
-    "main.47736d04.js.map": "/portfolio/static/js/main.47736d04.js.map"
+    "main.4b171c39.css.map": "/portfolio/static/css/main.4b171c39.css.map",
+    "main.4b18434b.js.map": "/portfolio/static/js/main.4b18434b.js.map"
   },
   "entrypoints": [
-    "static/css/main.c90951dc.css",
-    "static/js/main.47736d04.js"
+    "static/css/main.4b171c39.css",
+    "static/js/main.4b18434b.js"
   ]
 }
